@@ -23,4 +23,4 @@ jobs:
     - name: Build the Docker image
       run: |
         docker build . --file Dockerfile --tag ansufrancis/gitactions:test
-        docker psuh ansufrancis/gitactions:test
+        docker push ansufrancis/gitactions:test
